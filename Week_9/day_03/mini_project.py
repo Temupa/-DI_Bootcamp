@@ -60,9 +60,9 @@ class Mage(Character):
         other_char.life -= self.attack/self.life
 
 
-druid1=Druid("Druid Princess")
-warrior1=Warrior("War Man")
-mage1=Mage("Magic Mage")
+druid1 = Druid("Druid Princess")
+warrior1 = Warrior("War Man")
+mage1 = Mage("Magic Mage")
 
 druid1.meditate()
 warrior1.train()
